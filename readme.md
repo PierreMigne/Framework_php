@@ -18,3 +18,9 @@ Pour ajouter une nouvelle page, il faut :
    ![Screenshot](route.PNG)
 3. Créer, dans le fichier app.php, une fonction anonyme qui sera appelée dans le controller
    ![Screenshot](twig.PNG)
+
+Pour lancer le serveur en local, il faut utiliser la commande suivante :
+
+```
+php -S localhost:8000 -t public/
+```
